@@ -1,22 +1,51 @@
 #!ipxe
 
-menu Ibrahim Netboot 😎
+# =================================
+# Aurora Netboot Main Menu 😎
+# =================================
 
-item official Official netboot.xyz
-item tools My Tools
-item isos My Isos
-item reboot Reboot
+:mainmenu
+menu Aurora Netboot 🔥
+
+item tools        Tools
+item isos         ISOs
+item official     Official netboot.xyz
+item shell        iPXE Shell
+item reboot       Reboot
 
 choose target && goto ${target}
+
+# =================================
+# Tools Menu
+# =================================
+
+:tools
+chain https://huawei4g777.github.io/Aurora-Netboot/tools/menu.ipxe
+
+# =================================
+# ISO Menu
+# =================================
+
+:isos
+chain https://huawei4g777.github.io/Aurora-Netboot/isos/menu.ipxe
+
+# =================================
+# Official netboot.xyz
+# =================================
 
 :official
 chain https://boot.netboot.xyz
 
-:tools
-chain https://huawei4g777.github.io/Aurora-Netboot/tools.ipxe
+# =================================
+# Shell
+# =================================
 
-:isos
-chain https://huawei4g777.github.io/Aurora-Netboot/isos.ipxe
+:shell
+shell
+
+# =================================
+# Reboot
+# =================================
 
 :reboot
 reboot
