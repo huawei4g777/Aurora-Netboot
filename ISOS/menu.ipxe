@@ -5,9 +5,9 @@
 # ============================
 
 :mainmenu
-menu MENU NAME HERE
+menu ISOS
 
-item item1        ITEM 1 NAME
+item tiny11       Tiny 11
 item item2        ITEM 2 NAME
 item item3        ITEM 3 NAME
 item back         Back
@@ -16,8 +16,7 @@ item reboot       Reboot
 choose target && goto ${target}
 
 :item1
-# For ISO/IMG
-# sanboot https://LINK/file.iso
+sanboot https://drive.usercontent.google.com/download?id=1BI1pIJKaGQEgOmMQPNsN_hN0HJWz1WGi&export=download&authuser=0&confirm=t&uuid=3ec3f543-e696-4115-bfc9-813af64555f9&at=ALBwUgmkA4OfiJGWdDPHNC4ghJSH%3A1779556436224
 
 # For another menu
 # chain https://LINK/menu.ipxe
