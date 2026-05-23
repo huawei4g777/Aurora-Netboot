@@ -5,7 +5,7 @@
 # ============================
 
 :mainmenu
-menu MENU NAME HERE
+menu Tools
 
 item pw9          Partition-Wizard 9.0
 item item2        ITEM 2 NAME
@@ -16,7 +16,7 @@ item reboot       Reboot
 choose target && goto ${target}
 
 :pw9
-sanboot https://pixeldrain.com/api/file/y5RRi3rS?download
+sanboot https://drive.usercontent.google.com/download?id=1KEQGV62KmblOUVgc8wkQCXdfDdP3C1R3&export=download&authuser=0&confirm=t&uuid=def255a1-2638-4f36-9901-f17aa9913de4&at=ALBwUgl30IzjfNUEVq7mTsLdmZED%3A1779556021176
 
 goto mainmenu
 
