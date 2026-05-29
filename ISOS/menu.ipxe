@@ -34,7 +34,8 @@ goto mainmenu
 goto mainmenu
 
 :back
-chain https://YOURNAME.github.io/Aurora-Netboot/custom.ipxe
+chain https://huawei4g777.github.io/netboot.xyz-custom/custom.ipxe
+
 
 :reboot
 reboot
