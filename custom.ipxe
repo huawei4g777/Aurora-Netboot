@@ -20,14 +20,14 @@ choose target && goto ${target}
 # =================================
 
 :tools
-chain https://huawei4g777.github.io/Aurora-Netboot/tools/menu.ipxe
+chain https://huawei4g777.github.io/netboot.xyz-custom/tools/menu.ipxe
 
 # =================================
 # ISO Menu
 # =================================
 
 :isos
-chain https://huawei4g777.github.io/Aurora-Netboot/isos/menu.ipxe
+chain https://huawei4g777.github.io/netboot.xyz-custom/isos/menu.ipxe
 
 # =================================
 # Official netboot.xyz
