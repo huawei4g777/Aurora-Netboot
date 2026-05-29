@@ -15,7 +15,7 @@ item reboot       Reboot
 
 choose target && goto ${target}
 
-:item1
+:Tiny11
 sanboot https://drive.usercontent.google.com/download?id=1BI1pIJKaGQEgOmMQPNsN_hN0HJWz1WGi&export=download&authuser=0&confirm=t&uuid=3ec3f543-e696-4115-bfc9-813af64555f9&at=ALBwUgmkA4OfiJGWdDPHNC4ghJSH%3A1779556436224
 
 # For another menu
